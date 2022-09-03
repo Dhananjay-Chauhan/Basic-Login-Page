@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 33vh;
+    width: auto;
+    border-radius: 50%;
+    border: 0.5vh solid rgb(8, 135, 139);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    position: relative;  
+    top: 7vh;
+}
+.logbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+}
+.box1{
+    color: black;
+    height: 5vh ;
+    width: 20vw;
+    box-sizing: border-box;
+    padding-left: 0.5vw;
+     border-width: 0.25vh ;
+    border-color: #10a585;
+    border-radius: 5vh;
+    outline: none;
+    font-size: 3vh;
+    font-family: 'Sacramento', cursive;
+}
+.box2{
+    color: black;
+    height: 5vh ;
+    width: 20vw;
+    box-sizing: border-box;
+    padding-left: 0.5vw;
+     border-width: 0.25vh ;
+    border-color: #10a585;
+    border-radius: 5vh;
+    outline: none;
+    font-size: 3vh;
+    font-family: 'Sacramento', cursive;
+}
+.log1{
+    position: relative;
+    top: 2vh;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 1vh;
+    border: 0.25vh solid #137074;
+    color: #02424b;
+    font-size: 3vh; 
+    font-family: 'Sacramento', cursive;
+}
+.log1:hover{
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    position: relative;
+    top: 6vh;
+}
+.l1{
+    margin-right: 10vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    font-family: 'Sacramento', cursive;
+}
+
+.l2{
+    margin-left: 10vh;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    font-family: 'Sacramento', cursive;
+}
+.a1{
+    height: 8vh;
+    width: 5vw;
+    border: 4px solid rgb(114, 216, 216);
+    border-radius: 50%;
+    background-color: aqua;
+    -webkit-box-shadow: -2px 2px 26px 8px rgba(47,141,255,0.8);
+    -moz-box-shadow: -2px 2px 26px 8px rgba(47,141,255,0.8);
+    box-shadow: -2px 2px 26px 8px rgba(47,141,255,0.8);
+    position: absolute;
+    top: 10vh;
+    left:13vh;
+    animation: a1down 25s ease-in-out 0.5s infinite alternate ;
+}
+@keyframes a1down {
+    0%{
+        position: absolute ;
+        top: 10vh;
+        left:13vh;
+    }
+    25%{
+        position: absolute ;
+        top: 27vh;
+        left:18vh;               
+    }
+    50%{
+        position: absolute ;
+        top: 44vh;
+        left:8vh;
+    }
+    75%{
+        position: absolute ;
+        top: 61vh;
+        left:18vh;               
+    }
+    100%{
+        position: absolute ;
+        top: 78vh;
+        left:8vh;               
+    }                        
+}
+.a1:nth-child(2){
+    top: 5vh;
+    left:43vh;
+    animation: a2down 40s ease-in-out 0.5s infinite alternate ;
+}
+@keyframes a2down {
+    0%{
+        position: absolute ;
+        top: 5vh;
+        left:43vh;
+    }
+    25%{
+        position: absolute ;
+        top: 22vh;
+        left:47vh;               
+    }
+    50%{
+        position: absolute ;
+        top: 39vh;
+        left:37vh;
+    }
+    75%{
+        position: absolute ;
+        top: 56vh;
+        left:47vh;               
+    }
+    100%{
+        position: absolute ;
+        top: 73vh;
+        left:37vh;               
+    }                        
+}
+.a2{
+    height: 8vh;
+    width: 5vw;
+    border: 4px solid rgb(114, 216, 216);
+    border-radius: 50%;
+    background-color: aqua;
+    -webkit-box-shadow: -2px 2px 26px 8px rgba(47,141,255,0.8);
+    -moz-box-shadow: -2px 2px 26px 8px rgba(47,141,255,0.8);
+    box-shadow: -2px 2px 26px 8px rgba(104, 31, 153, 0.8);
+    position: absolute;
+    top: 5vh;
+    right:43vh;
+    animation: a3down 40s ease-in-out 0.5s infinite alternate ;
+}
+@keyframes a3down {
+    0%{
+        position: absolute ;
+        top: 5vh;
+        right:43vh;
+    }
+    25%{
+        position: absolute ;
+        top: 22vh;
+        right:47vh;               
+    }
+    50%{
+        position: absolute ;
+        top: 39vh;
+        right :37vh;
+    }
+    75%{
+        position: absolute ;
+        top: 56vh;
+        right:47vh;               
+    }
+    100%{
+        position: absolute ;
+        top: 73vh;
+        right:37vh;               
+    }                        
+}
+.a3{
+    height: 8vh;
+    width: 5vw;
+    border: 4px solid rgb(114, 216, 216);
+    border-radius: 50%;
+    background-color: aqua;
+    -webkit-box-shadow: -2px 2px 26px 8px rgba(6,185,255,0.8);
+    -moz-box-shadow: -2px 2px 26px 8px rgba(6,185,255,0.8);
+    box-shadow: -2px 2px 26px 8px rgba(104, 31, 153, 0.8);
+    position: absolute;
+    top: 10vh;
+    right:13vh;
+    animation: a4down 25s ease-in-out 0.5s infinite alternate ;
+}
+@keyframes a4down {
+    0%{
+        position: absolute ;
+        top: 10vh;
+        right:13vh; 
+    }
+    25%{
+        position: absolute ;
+        top: 27vh;
+        right:18vh;               
+    }
+    50%{
+        position: absolute ;
+        top: 44vh;
+        right:8vh;
+    }
+    75%{
+        position: absolute ;
+        top: 61vh;
+        right:18vh;               
+    }
+    100%{
+        position: absolute ;
+        top: 78vh;
+        right:8vh;               
+    }                        
+}
